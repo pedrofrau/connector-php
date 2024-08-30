@@ -304,6 +304,8 @@ class Connector {
     protected $sorts;
     protected $mix;
     protected $order = false;
+	protected $exec_time;
+	protected $render;
 
 	public static $filter_var="dhx_filter";
 	public static $sort_var="dhx_sort";
